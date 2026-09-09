@@ -7,3 +7,5 @@ char *strcat(char *destination, const char *source);
 char *strcpy(char *destination, const char *source);
 //4. compares two strings
 int strcmp( const char *s1, const char *s2 );
+//5. finds a character in a string
+char* strchr( const char* str, int ch );
