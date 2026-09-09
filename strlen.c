@@ -1,7 +1,7 @@
 #include "my_string.h"
 #include <stdio.h>
 
-int strlen(char *string){
+int strlen(const char *string){
 if(string == NULL){
     return -1;
 }

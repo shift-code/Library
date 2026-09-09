@@ -4,7 +4,7 @@
 char* strchr( char* str, int ch ){
     while(*str != '\0'){
         if(*str == (char)ch){
-            return str;
+            return (char *)str;
         }
         ++str;
     }
