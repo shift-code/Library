@@ -1,5 +1,5 @@
-#include "my_string.h";
-#include <stdio.h>;
+#include "my_string.h"
+#include <stdio.h>
 
 int strlen(char *string){
 if(string == NULL){
